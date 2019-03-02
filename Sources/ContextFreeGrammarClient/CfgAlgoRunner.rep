@@ -1,0 +1,7 @@
+class CfgAlgoRunner
+{
+	PROP(QList<QPair<QChar, QStringList>> solution = {});
+	SLOT(void add_rule(QChar, QVector<QPair<bool,QString>>));
+	SLOT(void find_shortest_words());
+	SLOT(void clear());
+}
